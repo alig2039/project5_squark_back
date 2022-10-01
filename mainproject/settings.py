@@ -184,7 +184,7 @@ SIMPLE_JWT = {
 }
 
 DOMAIN = ("")
-SITE_NAME = ('Yes Twitter Clone')
+SITE_NAME = ('Squawk')
 # DJOSER CONFIG
 DJOSER = {
 
