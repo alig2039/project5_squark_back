@@ -23,10 +23,7 @@ def NotificationView(request):
         to_user=request.user,
         user_has_seen=False
     ).count()
-    """
-    instead of doing ,if 0 then not show notificaton badge in client side 
-    we just send null value to notification count from server if count is 0
-    """
+    
     if noti_count == 0:
         noti_count  = None  
     serializer = NotificationSerializer(result_page, many=True, context={

@@ -11,10 +11,6 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
 
@@ -24,7 +20,6 @@ IS_HEROKU = "DYNO" in os.environ
 if not IS_HEROKU:
     DEBUG = True
 
-# ALLOWED_HOSTS = ['127.0.0.1','yestwitterclone12.herokuapp.com',]
 ALLOWED_HOSTS = []
 
 
@@ -211,7 +206,7 @@ DJOSER = {
 CORS_ALLOWED_ORIGINS = [
 
     # in dev mode
-    "htpp://localhost:3000"
+    "http://localhost:3000"
 ]
 # CORS_ALLOW_ALL_ORIGINS = True
 
