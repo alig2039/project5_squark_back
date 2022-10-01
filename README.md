@@ -14,6 +14,7 @@ The User acceptance criteria is for users to be able to post, reply, follow anot
     * As a user I expect to be able to add a post that users that follow me can see. 
     * As a user I expect to be able to view posts of users that i follow
     * As a user I expect to be able to re-post or re-broadcast posts i see. 
+    * As a user I expect to be able to chat with other users. 
 
 ### Design
 * Colour Scheme
@@ -41,9 +42,10 @@ The User acceptance criteria is for users to be able to post, reply, follow anot
 * [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 * [Heroku](heroku.com) used as a host.
 * [Npm](https://www.npmjs.com/)
+* Django [Channels](https://github.com/django/channels) to provide chat and private messaging functionality.
 
 ## Testing
-* Automated testing of URLs and URL names has been implemented and successfully carried out using the Django testing module.
+* Automated testing is used for each app to test models and views implemented and successfully carried out using the Django testing module.
 * User stories were tested to support the View and CRUD functionality imeplemented and expected for every user and every user group
 
 ### Further Testing

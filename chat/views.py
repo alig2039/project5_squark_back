@@ -8,6 +8,7 @@ from django.db.models import Q
 from .serializers import MessageSerializer, PrivateRoomSerializer
 from mainproject.pagination import CustomPagination
 from notifications.models import Notification
+
 @api_view(['GET'])
 @permission_classes((IsAuthenticated,))
 def return_chat_messages(request, username):
