@@ -1,13 +1,64 @@
-# Python: Getting Started
+Welcome,
 
-A barebones Django app, which can easily be deployed to Heroku.
+Squark is a Social Network that allows for posting, replying and re-broadcast of posts. A social feed is created for every user and Users can follow others. 
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out for instructions on how to deploy this app to Heroku and also run it locally.
+The User acceptance criteria is for users to be able to post, reply, follow another user to see their posts on a social feed and re-broadcast another user's posts
 
-Alternatively, you can deploy it using this Heroku Button:
+## User Experience(UX)
+### User Stories
+* Anonymous/Unregistered/First time User
+    * As an anonymous user I should not be able to view any content without logging in
+    * As an anonymous user I should be able to register for an account on the system or log into the system with an existing account.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+* User Goals
+    * As a user I expect to be able to add a post that users that follow me can see. 
+    * As a user I expect to be able to view posts of users that i follow
+    * As a user I expect to be able to re-post or re-broadcast posts i see. 
 
-For more information about using Python on Heroku, see these Dev Center articles:
+### Design
+* Colour Scheme
+    * The main colours used are black and white, a white background with a black navigation bar. With the default Bootstrap buttons and colours used.
 
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
+* Imagery
+    * The site contains a solo image which is the company logo in the top left hand corner of the navigation bar
+
+## Features
+* Responsive on all device sizes
+
+## Schema
+
+## Technologies Used
+### Languages Used
+* [Python](https://www.python.org/)
+* [HTML5](https://html.com/html5/)
+* CSS3
+* [React](https://reactjs.org/)
+
+### Frameworks, Libraries & Programs Used
+* [Django](http://www.djangoproject.com/) was used to build the site.
+* [Bootstrap](https://getbootstrap.com/) was used to assist with the responsiveness and styling of the website.
+* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
+* [Heroku](heroku.com) used as a host.
+* [Npm](https://www.npmjs.com/)
+
+## Testing
+* Automated testing of URLs and URL names has been implemented and successfully carried out using the Django testing module.
+* User stories were tested to support the View and CRUD functionality imeplemented and expected for every user and every user group
+
+### Further Testing
+* The site was tested on Google chrome and Ms Edge browsers.
+* A local SQLite database is used for testing data and values with a Postgres database used in production
+
+## Deployment
+The project was developed and deployed to Heroku using the following steps.
+* Cloned the Heroku django starter template following this [guide](https://devcenter.heroku.com/articles/getting-started-with-python)
+* Created two Github repositories, added it as a remote and pushed to this repository.
+* Modified the Heroku template to suite my needs.
+
+## Credits
+### Acknowledgements
+
+
+
+
