@@ -17,8 +17,9 @@ SECRET_KEY = config('SECRET_KEY')
 IS_HEROKU = "DYNO" in os.environ
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if not IS_HEROKU:
-    DEBUG = True
+# if not IS_HEROKU:
+#     DEBUG = True
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
