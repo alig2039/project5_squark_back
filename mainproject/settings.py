@@ -215,7 +215,9 @@ DJOSER = {
 CORS_ALLOWED_ORIGINS = [
 
     # in dev mode
-    "http://localhost:3000"
+    "http://localhost:3000",
+    # prod url
+    "https://proj-sqwk.vercel.app"
 ]
 # CORS_ALLOW_ALL_ORIGINS = True
 
