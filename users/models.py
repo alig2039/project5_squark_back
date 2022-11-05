@@ -3,6 +3,8 @@ from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth.models import AbstractUser, PermissionsMixin, BaseUserManager
 
+from decouple import config 
+
 class CustomUserManager(BaseUserManager):
 
     def create_user(self, email,username, password, **extra_fields):
@@ -43,8 +45,8 @@ class User(AbstractUser):
     password = models.CharField(max_length=200)
     following = models.ManyToManyField("self",symmetrical=False,related_name="followed" ,blank=True)
     bio = models.TextField(blank=True ,default="")
-    avatar = models.ImageField(default='default.jpg', upload_to='avatars')
-    cover_image = models.ImageField(default='cover.jpg', upload_to='avatars')
+    avatar = models.ImageField(default=config('DEFAULT_PROFILE'), upload_to='avatars')
+    cover_image = models.ImageField(default=config('DEFAULT_BACK'), upload_to='avatars')
    
 
     objects = CustomUserManager()
