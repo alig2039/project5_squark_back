@@ -92,6 +92,7 @@ DATABASES = {
        'HOST': config("HOST", default=''),
        'PORT': '5432'
     }
+
 }
 
 CHANNEL_LAYERS = {
