@@ -47,8 +47,9 @@ class User(AbstractUser):
     password = models.CharField(max_length=200)
     following = models.ManyToManyField("self",symmetrical=False,related_name="followed" ,blank=True)
     bio = models.TextField(blank=True ,default="")
-    avatar = models.ImageField(default='https://asset.cloudinary.com/allan-gerald-sserwanga/9f91b9276ebf2f4eff14e33693694d8f', upload_to='avatars')
-    cover_image = models.ImageField(default='https://asset.cloudinary.com/allan-gerald-sserwanga/23185c07c102f02509e0e6131d1bbc60', upload_to='avatars')
+    avatar = models.ImageField(default='profile_yzijzd.jpg', upload_to='avatars')
+    cover_image = models.ImageField(default='cover_iqsrdp.jpg', upload_to='avatars')
+    is_active = models.BooleanField(default=False)
    
 
     objects = CustomUserManager()
