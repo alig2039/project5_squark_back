@@ -49,7 +49,7 @@ class User(AbstractUser):
     bio = models.TextField(blank=True ,default="")
     avatar = models.ImageField(default='profile_yzijzd.jpg', upload_to='avatars')
     cover_image = models.ImageField(default='cover_iqsrdp.jpg', upload_to='avatars')
-    is_active = models.BooleanField(default=True)
+    is_active = models.BooleanField(_('active'), default=True)
    
 
     objects = CustomUserManager()
