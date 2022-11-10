@@ -216,8 +216,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     # prod url
     "https://proj-sqwk.vercel.app",
-    # mail endpoint
-    "smtp.mail.yahoo.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
