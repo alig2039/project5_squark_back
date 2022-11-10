@@ -216,7 +216,7 @@ CORS_ALLOWED_ORIGINS = [
     # prod url
     "https://proj-sqwk.vercel.app"
 ]
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': config('CLOUD_NAME'),
