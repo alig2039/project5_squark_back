@@ -169,11 +169,6 @@ DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'users.User'
 
-# Sending email via mailtrap on heroku
-import requests
-response = requests.get("https://mailtrap.io/api/v1/inboxes.json?api_token=<MAILTRAP_API_TOKEN>")
-credentials = response.json()[0]
-
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = config('EMAIL_HOST')
 EMAIL_PORT = 587
