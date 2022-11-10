@@ -209,18 +209,16 @@ DJOSER = {
 }
 
 
-# CORS_ALLOWED_ORIGINS = [
+CORS_ALLOW_ALL = True
+CORS_ALLOWED_ORIGINS = [
 
-#     # in dev mode
-#     "http://localhost:3000",
-#     # prod url
-#     "https://proj-sqwk.vercel.app",
-#     # mail endpoint
-#     "smtp.mail.yahoo.com"
-# ]
-
-CORS_ALLOW_ALL_ORIGINS = True
-
+    # in dev mode
+    "http://localhost:3000",
+    # prod url
+    "https://proj-sqwk.vercel.app",
+    # mail endpoint
+    "smtp.mail.yahoo.com"
+]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
   'accept',
