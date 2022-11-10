@@ -5,12 +5,12 @@ Squawk is a Social Network that allows for posting, replying and re-broadcast of
 The User acceptance criteria is for users to be able to post, reply, follow another user to see their posts on a social feed and re-broadcast another user's posts
 
 The system uses a React front end with a Django Rest Framework backend.
-The front end repository can be found [here](https://github.com/alig2039/project5_squawk_front)
+The front end repository can be found [here](https://github.com/alig2039/projSqwk)
 
 ## User Experience(UX)
 ### User Stories
 * Anonymous/Unregistered/First time User
-    * As an anonymous user I should not be able to view any content without logging in
+    * As an anonymous user I should be able to view public content without logging in
     * As an anonymous user I should be able to register for an account on the system or log into the system with an existing account.
 
 * User Goals
@@ -21,10 +21,10 @@ The front end repository can be found [here](https://github.com/alig2039/project
 
 ### Design
 * Colour Scheme
-    * The main colours used are black and white, a white background with a black navigation bar. With the default Bootstrap buttons and colours used.
+    * The main colours used are brown and blue. With the default Bootstrap buttons and colours used.
 
 * Imagery
-    * The site contains a solo image which is the company logo in the top left hand corner of the navigation bar
+    * The site contains a cupcake image which is the company logo in the top left hand corner of the navigation bar. A default profile picture and cover image are also provided but these can be changed via the profile edit page. All images are stored in cloudinary
 
 ## Features
 * Responsive on all device sizes
@@ -43,9 +43,11 @@ The front end repository can be found [here](https://github.com/alig2039/project
 * [Bootstrap](https://getbootstrap.com/) was used to assist with the responsiveness and styling of the website.
 * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
-* [Heroku](heroku.com) used as a host.
+* [Heroku](heroku.com) used as a backend host and [Vercel](https://vercel.com) used as a website host..
 * [Npm](https://www.npmjs.com/)
 * Django [Channels](https://github.com/django/channels) to provide chat and private messaging functionality.
+* Inspired by the work on this [project](https://github.com/learningnoobi/twitter-react)
+
 
 ## Testing
 * Automated testing is used for each app to test models and views implemented and successfully carried out using the Django testing module.
