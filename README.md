@@ -138,6 +138,9 @@ Validation of .js and .jsx files to detect syntax errors automtically done by Co
 
 ### Further Testing
 
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668627985/tests_zmaafj.jpg">
+
+-   Automated tests written for the backend API.
 -   The site was tested on Firefox, Ms Edge browsers on desktop and Safari on iPhone.
 -   A local SQLite database is used for testing data and values with a Postgres database used in production
 -   A large amount of testing was done to ensure that all pages were linking correctly.
