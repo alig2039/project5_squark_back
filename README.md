@@ -48,9 +48,11 @@ The front end repository can be found [here](https://github.com/alig2039/projSqw
 
 ## Testing
 
-Validation of .js and .jsx files to detect syntax errors automtically done by Code Editor and interpretor when running npm start locally.
+As frontend functionality is supported by the backend API, testing of the frontend features also tests the expected functionality of the API in it's ability to provide a seamless and error free user experience. 
 
-### Testing User Stories from User Experience (UX) Section
+As such the same frontend tests are carried over to test backend functionality.
+
+### Testing Frontend User Stories from User Experience (UX) Section
 
 -   ### Anonymous/Unregistered/First time User Goals
 
@@ -106,6 +108,7 @@ Validation of .js and .jsx files to detect syntax errors automtically done by Co
 -   The site is not able to upload HEIC images from iOS devices and images larger than approximately 10MB.
 -   Manual refreshes are sometimes needed for the user interface to update content such as private messages and notifications.
 -   The site functionality can be impaired by browsers that restrict or limit javascript for security purposes.
+-   The .env file is included in the respository as the github repository is linked directly to the host. Commits lead to site updates. If the .env file were not included as expected according to the terms of the project, the site would break since needed values would be missing.
 
 
 ## Deployment
