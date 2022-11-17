@@ -4,59 +4,15 @@ Welcome,
 
 Squawk is a Social Network that allows for posting, replying and re-broadcast of posts. A social feed is created for every user and Users can follow others. 
 
-The User acceptance criteria is for users to be able to post, reply, follow another user to see their posts on a social feed and re-broadcast another user's posts
-
 The system uses a React front end with a Django Rest Framework backend.
-The back end repository can be found [here](https://github.com/alig2039/project5_squawk_front)
-
-## User Experience(UX)
-
--   ### User Stories
-
-    -   #### Anonymous/Unregistered/First time User Goals
-
-        1. As an anonymous user, I want to be able to Log into the system with an existing account so that i can like, reply and re post other users' posts.
-        2. As an anonymous user, I want to be able to Register for an account so that i can Log in and like, reply and re post other users' posts.
-        3. As an anonymous user, I want to be able to view public posts on the system without logging in or registering for an account so that i can see the activity and popularity of the social media platform.
-
-    -   #### Authenticated User Goals
-
-        1. As a Authenticated user, I want to be able to add a post so that other users can see it on their home pages. 
-        2. As a Authenticated user, I want to be able to view posts of users that i follow so that i can like, comment and re post them.
-        3. As a Authenticated user, I want to be able to re-post posts i see so that users that follow me can see those posts as well and they can appear on my home page. 
-        4. As a Authenticated user, I want to be able to send a private message to users i follow and that follow me so that i can have conversations with other users. 
-        5. As a Authenticated user, I want to be able to see notifications of interactions with my posts and of new followers so that i can interact with other users on the platform.
-
-### Design
-
--   ### Colour Scheme
-
-    -   The main colours used are a Brown background with white text, with the default Bootstrap button styles.
-
--   ### Imagery
-
-    -   The site contains a cupcake logo and favicon as logo. Default Avatar and cover images are provided with the option for users to upload custom images to replace these. All images are stored in Cloudinary
-
-### Wireframes
--   Home Page - [View](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668291404/Home_xxbafa.png)
--   Profile Page - [View](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668293107/Profile_s5ayjr.png)
--   Notifications Page - [View](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668293107/Notificatoins_utnrzz.png)
--   Messages Page - [View](https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668293110/Message_ewrclx.png)
+The front end repository can be found [here](https://github.com/alig2039/projSqwk)
 
 ## Features
-
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/5_sdjpzo.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/2_q4fixm.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/4_hu3qve.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250485/3_qnctu1.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668250486/1_la1z8t.jpg">
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668253274/Screenshot_2022-11-12_143742_afjg6m.jpg">
-
--   Post status updates in text and media.
--   Like and Comment on other updates.
--   Follow other users to see their posts and send them private messages.
--   Responsive on all device sizes
--   Interactive Elements
+* The backend is created with [Django Rest Framework](https://www.django-rest-framework.org/) and supports the operations of:
+* User creation and Access control using [djoser](https://djoser.readthedocs.io/en/latest/getting_started.html) Django library for token authentication functionality over a custom User model manager.
+* Private messaging functionality is made possible by use of the [Django channels](https://channels.readthedocs.io/en/stable/) library with provides asynchronous functionality to support messaging and status updates and interaction on the home page.
+* Further social functionality suchs as users following each other and interacting with their posts is implemented by utilisation of the Django Rest Framework feature and library set without the need for third party libraries.
+* [Cloudinary](https://cloudinary.com/) is used as an Image backend and all images, default and user uploaded are stored and referenced from Cloudinary.
 
 ## Technologies Used
 
