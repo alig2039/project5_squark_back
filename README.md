@@ -8,10 +8,10 @@ The system uses a React front end with a Django Rest Framework backend.
 The front end repository can be found [here](https://github.com/alig2039/projSqwk)
 
 ## Features
-* The backend is created with [Django Rest Framework](https://www.django-rest-framework.org/) and supports the operations of:
-* User creation and Access control using [djoser](https://djoser.readthedocs.io/en/latest/getting_started.html) Django library for token authentication functionality over a custom User model manager.
-* Private messaging functionality is made possible by use of the [Django channels](https://channels.readthedocs.io/en/stable/) library with provides asynchronous functionality to support messaging and status updates and interaction on the home page.
-* Further social functionality suchs as users following each other and interacting with their posts is implemented by utilisation of the Django Rest Framework feature and library set without the need for third party libraries.
+* The backend is created with [Django Rest Framework](https://www.django-rest-framework.org/).
+* User creation and Access control functionality is created using [djoser](https://djoser.readthedocs.io/en/latest/getting_started.html) Django library for token authentication functionality over a custom User model manager.
+* Private messaging functionality is made possible by use of the [Django channels](https://channels.readthedocs.io/en/stable/) library which provides asynchronous functionality to support messaging and status updates and interaction on the home page.
+* Further social functionality such as users following each other and interacting with their posts is implemented by utilisation of the Django Rest Framework feature and library set without the need for third party libraries.
 * [Cloudinary](https://cloudinary.com/) is used as an Image backend and all images, default and user uploaded are stored and referenced from Cloudinary.
 
 ## Technologies Used
@@ -19,14 +19,11 @@ The front end repository can be found [here](https://github.com/alig2039/projSqw
 ### Languages Used
 
 -   [Python](https://www.python.org/)
--   [HTML5](https://html.com/html5/)
--   CSS3
--   [React](https://reactjs.org/)
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
+    - Bootstrap was used to assist with the responsiveness and styling of the front end website.
 1. [Django](http://www.djangoproject.com/)
     - Django was used as a web framework to build the api backend.
 1. [Django Rest Framework](https://www.django-rest-framework.org/)
@@ -41,8 +38,10 @@ The front end repository can be found [here](https://github.com/alig2039/projSqw
     - Vercel is used as a frontend host.
 1. [Npm](https://www.npmjs.com/)
     - Npm is used as a Node package manager for the installation and maintenance of React related packages.
-1. Django [Channels](https://github.com/django/channels) 
-    - Django Channels is used to provide chat and private messaging functionality.
+1. [Django Channels](https://github.com/django/channels) 
+    - Django Channels is used to provide asynchronous functions to support chat and private messaging functionality.
+1. [djoser](https://djoser.readthedocs.io/en/latest/getting_started.html) 
+    - Django library for token authentication functionality.
 1. [VSCode](https://code.visualstudio.com/) 
     - VSCode used as a code editor
     
