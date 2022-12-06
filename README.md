@@ -1,6 +1,6 @@
 Welcome,
 
-<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1668253275/Screenshot_2022-11-12_143813_ea5wm1.jpg">
+<img src="https://res.cloudinary.com/allan-gerald-sserwanga/image/upload/v1670342499/home_page_klphg5.jpg">
 
 Squawk is a Social Network that allows for posting, replying and re-broadcast of posts. A social feed is created for every user and Users can follow others. 
 
